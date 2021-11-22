@@ -6,7 +6,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-   
+    font-weight: 600;
 }
 
 #navbar{
@@ -92,10 +92,9 @@ h2{
 .sessao-descricao p {
 	line-height: 2;
 	font-size: 16px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	margin-left: 25px;
     color: #C79595;
-
 }
 
 .sessao-bemvindo-btn, form input[type=submit] {
@@ -158,20 +157,20 @@ h2{
 }
 
 #img1 {
-	background-image: url('img/galeria1.jpg');
+	background-image: url('galeria1.jpg');
 	margin-left: 150px;
 }
 
 #img2 {
-	background-image: url('img/galeria2.jpeg');
+	background-image: url('galeria2.jpeg');
 }
 
 #img3 {
-	background-image: url('img/galeria3.jpeg');
+	background-image: url('galeria3.jpeg');
 }
 
 #img4 {
-	background-image: url('img/galeria4.jpeg');
+	background-image: url('galeria4.jpeg');
 }
 
 
@@ -191,37 +190,37 @@ h2{
 
 
 #img7 {
-	background-image: url('img/amb2.jpeg');
+	background-image: url('amb2.jpeg');
     margin-left: 40px;
    
 }
 
 #img8 {
-	background-image: url('img/amb3.jpeg');
+	background-image: url('amb3.jpeg');
 	margin-left: 40px;
     
 }
 
 #img9 {
-	background-image: url('img/amb4.jpeg');
+	background-image: url('amb4.jpeg');
 	margin-left: 40px;
     
 }
 
 #img10 {
-	background-image: url('img/amb5.jpeg');
+	background-image: url('amb5.jpeg');
     margin-left: 40px;
    
 }
 
 #img11 {
-	background-image: url('img/amb6.jpeg');
+	background-image: url('amb6.jpeg');
 	margin-left: 40px;
     
 }
 
 #img12 {
-	background-image: url('img/amb7.jpeg');
+	background-image: url('amb7.jpeg');
 	margin-left: 40px;
 }
 
@@ -240,45 +239,45 @@ h2{
 }
 
 #img13 {
-	background-image: url('img/galeria5.jpeg');
+	background-image: url('galeria5.jpeg');
 	margin-left: 3%;
 }
 
 #img14 {
-	background-image: url('img/galeria9.jpeg');
+	background-image: url('galeria9.jpeg');
 }
 
 #img15 {
-	background-image: url('img/galeria10.jpeg');
+	background-image: url('galeria10.jpeg');
 }
 
 #img16 {
-	background-image: url('img/img13.jpeg');
+	background-image: url('img13.jpeg');
 	margin-right: 3%;
 }
 
 #img17 {
-	background-image: url('img/img14.jpeg');
+	background-image: url('img14.jpeg');
 	margin-left: 3%;
 }
 
 #img18 {
-	background-image: url('img/img15.jpeg');
+	background-image: url('img15.jpeg');
 }
 
 #img19 {
-	background-image: url('img/img16.jpeg');
+	background-image: url('img16.jpeg');
 }
 
 #img20 {
-	background-image: url('img/img18.jpeg');
+	background-image: url('img18.jpeg');
 	margin-right: 3%;
 }
 
 /*CONTATO*/
 
 #sessao-contato h2{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #form-contato {
 	width: 500px;
@@ -322,7 +321,6 @@ h2{
 
 #form_cads{
     margin-top: 25px;
-    font-size: 16px;
 }
 
 #form-cadastro input[type=text],#form-cadastro input[type=email],#form-cadastro input[type=password] {
@@ -339,7 +337,7 @@ h2{
 fieldset{
     color: #C79595;
     border: #f0808069 1px solid;
-    font-size: 16px;
+    font-size: 26px;
 }
 
 #form-cadastro ::placeholder {
@@ -350,7 +348,7 @@ fieldset{
  .endereco{
      margin-bottom: 4px;
      font-family: 'Roboto', sans-serif;
-     font-size: 26px;
+     font-size: 16px;
  }
 button{
     margin-top: 20px;
@@ -422,8 +420,7 @@ footer p {
     font-size: 10px;
 }
 
-
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 560px) {
 
 	nav { 
         display: none; }
@@ -477,24 +474,24 @@ footer p {
         width: 300px;
         height: 400px;
         margin: 10px;
-        
+        margin-right: 5px;
     }
 
     .sessao-descricao {
         margin-top: 50px;
         display: block;
         left: 0px;
-        padding-left: 0px;
+        padding-right: 30px;
     }
 
     #sessao-sobre{
-        margin-top: 800px;
+        margin-top: 1000px;
     }
 
     #sessao-sobre .sessao-minibanner .banner4 {
-        display: flexbox;
-        margin-left: 0px;	
-        width: 320px;
+        display: block;
+        margin-right: -20px;	
+        width: 300px;
         height: 400px;
     }
 
@@ -566,22 +563,23 @@ footer p {
     margin-left: 2px;
     }
 
+
+
     /*CONTATO*/
     #sessao-contato{
-        margin-left: 5px;
+        margin-left: 10px;
     }
 
     #form-contato {
-        width: 280px;
-        margin-left: 5px;
+        width: 90%;
+        margin-left: 10px;
     }
 
     /*Banner*/
     .banner .bannerA{
-        margin-left: -5px;
-        width: 320px;
+        width: 360px;
         height: 400px;
-        background-image: url('img/j_M_M2.jpg');
+        background-image: url('j_M_M2.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -606,31 +604,26 @@ footer p {
 @media screen and (max-width: 360px) {
     #form-cadastro {
         width: 320px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
-    #form-cadastro input[type=text],#form-cadastro input[type=email],#form-cadastro input[type=password]  {
+    #form-cadastro input[type=text],#form-cadastro input[type=email] {
         display: block;
         border: 1px solid #F08080;
-        padding: 10px;
+        padding: 6px;
         margin-bottom: 5px;
-        width: 260px;
+        width: 90%;
         font-size: 16px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open sans', sans-serif;
     }
     #area_cads{
-        margin-left: 5px;
+        margin-left: 20px;
     }
     footer {
         height: 100px;
-        padding-top: 360px;
+        padding-top: 200px;
         color: #F08080;
-        
     }
-    .end{
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-      
-    }
+   
 
     .banner3{
         margin: 0;
@@ -641,18 +634,7 @@ footer p {
     }  
     
     fieldset{
-        width: 75%;
-    } 
-    
-    .banner4{
-        margin-left: 0;
-    }
-
-    #sessao-sobre .sessao-descricao  {
-
-        margin-right: 320px;
-        left: 0px;
-    }
-
+        width: 280px;
+    }    
 }
 
